@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Connect to MongoDB Atlas
-const mongoURI = process.env.MONGO_URI || "mongodb+srv://islomovikromjon7_db_user:tSPDLcVgr3jXdX9f@cluster0.xvzwh5a.mongodb.net/nexara?retryWrites=true&w=majority&appName=Cluster0";
+const mongoURI = process.env.MONGO_URI || "mongodb+srv://islomovikromjon7_db_user:Salom2026@cluster0.xvzwh5a.mongodb.net/nexara?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose.connect(mongoURI)
   .then(() => console.log('✅ Nexara MongoDB connected successfully!'))
